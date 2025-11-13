@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  extraPlugins = [
-    pkgs.vimPlugins.opencode-nvim
-  ];
+  plugins.opencode = {
+    enable = true;
+  };
 }
