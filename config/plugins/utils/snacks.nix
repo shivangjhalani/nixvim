@@ -5,9 +5,9 @@
 
     settings = {
       # Enable required modules for opencode
-      input = { };
-      picker = { };
-      terminal = { };
+      input.enabled = true;
+      picker.enabled = true;
+      terminal.enabled = true;
 
       # Optional: enable other useful snacks modules
       bigfile.enabled = true;
