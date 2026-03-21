@@ -14,7 +14,8 @@ _: {
             "alpha"
           ];
         };
-        theme = "catppuccin";
+        # theme = "catppuccin";
+        theme = "rose-pine";
       };
       sections = {
         lualine_a = [
